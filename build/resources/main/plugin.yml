@@ -1,0 +1,11 @@
+name: hunzguesswho
+main: nz.husky.hunzguesswho
+version: 0.1-SNAPSHOT
+api-version: 1.21.1
+commands:
+  startguesswho:
+    description: Starts a Guess Who game.
+    usage: /startguesswho <targetPlayer>
+  guess:
+    description: Make a guess in the Guess Who game.
+    usage: /guess <playerName>
